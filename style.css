@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    background-image: url('images/bg-curvy-mobile.svg');
+    background-repeat: no-repeat;
+    /* background-position: left 0% top 0%; */
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    margin: 2em .5em;
+    color: #fff;
+    
+}
+/* ====header section==== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    padding: 0 .3em;
+    background-color: hsl(217, 28%, 15%);
+}
+.nav-header{
+    /* width: 40%; */
+}
+.nav-header li{
+    display: inline-block;
+    margin-top: 1em;
+    /* padding: 1em 0 0 0; */
+}
+.nav-header li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: .9rem;
+    padding-left: .3em;
+}
+/* ====intro=== */
+.intro {
+    text-align: center;
+    padding: 2em 3em;
+    background-color: hsl(217, 28%, 15%);
+}
+.intro img{
+    width: 100%;
+}
+.intro h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1em 0;
+    line-height: 1.3em;
+}
+.intro p {
+    line-height: 1.5em;
+    font-size: .95rem;
+}
+.intro button {
+    margin: 1.5em 0;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%) );
+    color: #fff;
+    width: 70%;
+    padding: .7em .7em;
+    font-size: 1rem;
+    border-radius: 1.5em;
+    border: none;
+}
+/* ====main1==== */
+.main {
+    text-align: center;
+    margin: 3em 3em;
+}
+.main img {
+    margin: 2em 0;
+}
+.main h3 {
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+.main p {
+    line-height: 1.5em;
+}
+.main-div {
+    margin-bottom: 4em;
+}
+/* ====main2==== */
+.main2 {
+    text-align: center;
+    margin: 3em 3em;
+}
+.main2 img {
+    width: 100%;
+    margin: 2em 0;
+}
+.main2-content h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+}
+.main2-content p {
+    line-height: 1.5em;
+    text-align: left;
+    margin-bottom: 1em;
+    position: relative;
+}
+.main2-content a {
+    position: absolute;
+    left: 3.3em;
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    margin-bottom: 1em;
+    padding: .3em 0;
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+/* .main2-content img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    position: relative;
+    top: -2.5em;
+    left: -2.5em;
+} */
+/* ----main3---- */
+.main3 {
+    text-align: center;
+    margin: 15em 3em;
+    position: relative;
+}
+.main3 #quote {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    left: 0em;
+    top: -2em;
+}
+.main3-subdiv section img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+.main3-subdiv {
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom: 1em;
+    text-align: left;
+    padding: 2em;
+    line-height: 1.5em;
+}
+.main3-subdiv section div {
+    display: flex;
+    margin-top: 1em;
+}
+.main3-subdiv section div img{
+    margin-right: .5em;
+}
+.main3-subdiv section div p span{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+/* ====form==== */
+.form-container {
+    text-align: center;
+    margin: 3em 3em;
+    position: relative;
+    background-color: hsl(219, 30%, 18%);
+    padding: 2.5em 0;
+}
+.form-container h2 {
+    margin-bottom: 1em;
+}
+.form-container p {
+    line-height: 1.5em;
+    padding: 0 1em;
+    margin-bottom: 2em;
+}
+.form-container input[type=email] {
+    width: 70%;
+    padding: .7em .7em;
+    border-radius: 1.5em;
+}
+.form-container input[type=submit] {
+    margin: 1.5em 0;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%) );
+    color: #fff;
+    width: 70%;
+    padding: .7em .7em;
+    font-size: 1rem;
+    border-radius: 1.5em;
+    border: none;
+}
+/* =====footer===== */
+.footer {
+    margin: -15em -1em 0em -1em;
+    padding: 16em 3em 1em 3em;
+    background-color:hsl(216, 53%, 9%);
+}
+#footer-logo {
+    margin-bottom: 2em;
+}
+.footer-content{
+    display: flex;
+    /* float: left;
+    clear: both; */
+    margin-bottom: 2em;
+}
+.footer-content img {
+    margin-right: 1em;
+    width: auto;
+    height: 25px;
+    /* flex-shrink: 2; */
+}
+.footer-list {
+    margin-bottom: 3em;
+}
+.footer-list ul {
+    list-style-type: none;
+}
+.footer-list ul li {
+    margin-bottom: 1em;
+}
+.footer-list ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-social {
+    text-align: center;
+}
+.footer-social a {
+    padding-left: 1em;
+}
+
+
+
+
+@media (min-width: 760px) {
+    body{
+        background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    }
+    .intro {
+        padding: 2em 20em;
+        
+    }
+    .intro p {
+        font-size: 1.1rem;
+    }
+    .intro button {
+        width: 50%;
+    }
+    /* .main {
+        padding: 2em 20em;
+        display: flex;
+    } */
+    .main-contain {
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 0 7em;
+    }
+    .main-contain .sub-main1{
+        margin-right: 5em;
+    }
+    .main-contain .sub-main3{
+        margin-right: 5em;
+    }
+    .main2 {
+        display: flex;
+        padding: 0 3em;
+    }
+    
+    .main2-content {
+        text-align: left;
+        position: relative;
+        padding: 8em 0 0 3.3em;
+    }
+    .main2-content a {
+        position: absolute;
+        left: 3.3em;
+    }
+    .main2-content p {
+        line-height: 1.2em;
+    }
+    .main3-div {
+        display: flex;
+        margin: 0 3em;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .main3-subdiv {
+        margin-right: 2em;
+    }
+    .main3 #quote {
+        position: absolute;
+        left: 2em;
+        top: -2em;
+    }
+    .form-container {
+        width: 70%;
+        margin: 0 auto;
+        padding: 2.5em 2.5em;
+    }
+    .form-container div {
+        display: flex;
+    }
+    .form-container input[type=email] {
+        width: 70%;
+        height: 4em;
+        margin: 1em 1em 0 0;
+        padding: 1em;
+        border-radius: 2em;
+    }
+    .form-container input[type=submit] {
+        width: 30%;
+    }
+    #footer-logo {
+        margin: 3em 0 3em 3em;
+    }
+    #footer-close {
+        display: flex;
+        justify-content: space-evenly;
+        /* margin: 3em 0 0 0em; */
+    }
+}
